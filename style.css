@@ -1,0 +1,25 @@
+body{
+    width:100%;
+}
+.resultado {
+    border: solid black 1px;
+    padding: 2px;
+    margin: 2px;
+    margin-left: 0px;
+    margin-top: 4px;
+    width: 622px;
+   /* display: flexbox;*/
+    padding-left: 8cm;
+    width: 321px;
+    font-weight: bolder;
+
+}
+.inputs{
+    display: inline-block;
+   /* border: solid red 2px;*/
+}
+input{
+    padding: 2px 62px;
+    width: 40px;
+    display:block;
+}
