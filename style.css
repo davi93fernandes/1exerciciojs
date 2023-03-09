@@ -41,8 +41,6 @@ input:hover {
     background-color: rgb(174, 217, 217);
 }
 
-
-
 h1 {
     font-weight: bold;
     width: 100%;
@@ -64,4 +62,18 @@ button {
 button:hover {
     box-shadow: 5px 2px 4px 2px rgba(93, 142, 90, 0.923);
     background-color: rgb(174, 217, 217);
+}
+
+.resultado2 {
+    border: solid black 1px;
+    padding: 2px;
+    margin: 2px;
+    margin-left: 0px;
+    margin-top: 4px;
+    width: 76%;
+    display: flexbox;
+    padding-left: 0cm;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(184, 190, 196);
 }
