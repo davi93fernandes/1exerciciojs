@@ -6,6 +6,7 @@ body {
 }
 
 .resultado {
+    border-radius: 10px;
     border: solid black 1px;
     padding: 2px;
     margin: auto;
@@ -20,6 +21,7 @@ body {
 }
 
 .resultado:hover {
+    border-radius: 10px;
     background-color: rgb(174, 217, 217);
 }
 
@@ -30,6 +32,7 @@ body {
 }
 
 input {
+    border-radius: 10px;
     width: 100%;
     display: block;
     justify-self: unset;
@@ -40,6 +43,7 @@ input {
 }
 
 input:hover {
+    border-radius: 10px;
     background-color: rgb(174, 217, 217);
 }
 
@@ -74,6 +78,7 @@ button:hover {
 }
 
 .resultado2 {
+    border-radius: 10px;
     border: solid black 1px;
     padding: 2px;
     margin: auto;
@@ -88,5 +93,6 @@ button:hover {
 }
 
 .resultado2:hover {
+    border-radius: 10px;
     background-color: rgb(174, 217, 217);
 }
