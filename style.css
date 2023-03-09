@@ -1,14 +1,16 @@
 body {
-    width: 50%;
+    display: flexbox;
+    width: 100%;
     background-color: rgb(180, 180, 250);
+    text-align: center;
 }
 
 .resultado {
     border: solid black 1px;
     padding: 2px;
-    margin: 2px;
-    margin-left: 0px;
-    margin-top: 4px;
+    margin: auto;
+    margin-left: auto;
+    margin-top: auto;
     width: 76%;
     display: flexbox;
     padding-left: 0cm;
@@ -41,6 +43,13 @@ input:hover {
     background-color: rgb(174, 217, 217);
 }
 
+.corpo{
+    margin: auto;
+    display: flexbox;
+    text-align: center;
+    width: 600px;
+}
+
 h1 {
     font-weight: bold;
     width: 100%;
@@ -52,7 +61,7 @@ p {
 }
 
 button {
-    width: 102%;
+    width: 100%;    
     border: solid gray 1px;
     border-radius: 20px;
     margin-top: 5px;
@@ -67,13 +76,17 @@ button:hover {
 .resultado2 {
     border: solid black 1px;
     padding: 2px;
-    margin: 2px;
-    margin-left: 0px;
-    margin-top: 4px;
+    margin: auto;
+    margin-left: auto;
+    margin-top: auto;
     width: 76%;
     display: flexbox;
     padding-left: 0cm;
     font-weight: bolder;
     text-align: center;
     background-color: rgb(184, 190, 196);
+}
+
+.resultado2:hover {
+    background-color: rgb(174, 217, 217);
 }
